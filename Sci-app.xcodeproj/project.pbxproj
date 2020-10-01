@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13F564BA238C0329003B1C36 /* game1-soundtrack.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 13F564B9238C0329003B1C36 /* game1-soundtrack.mp3 */; };
+		13F564C7238C20C2003B1C36 /* Level8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F564BB238C20C2003B1C36 /* Level8.swift */; };
+		13F564C8238C20C2003B1C36 /* Level5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F564BC238C20C2003B1C36 /* Level5.swift */; };
+		13F564C9238C20C2003B1C36 /* Level7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F564BD238C20C2003B1C36 /* Level7.swift */; };
+		13F564CA238C20C2003B1C36 /* Level2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F564BE238C20C2003B1C36 /* Level2.swift */; };
+		13F564CB238C20C2003B1C36 /* damage.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 13F564BF238C20C2003B1C36 /* damage.mp3 */; };
+		13F564CC238C20C2003B1C36 /* Level3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F564C0238C20C2003B1C36 /* Level3.swift */; };
+		13F564CD238C20C2003B1C36 /* game2-soundtrack.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 13F564C1238C20C2003B1C36 /* game2-soundtrack.mp3 */; };
+		13F564CE238C20C2003B1C36 /* Level4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F564C2238C20C2003B1C36 /* Level4.swift */; };
+		13F564CF238C20C2003B1C36 /* game2-gameover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 13F564C3238C20C2003B1C36 /* game2-gameover.mp3 */; };
+		13F564D0238C20C2003B1C36 /* game2-coin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 13F564C4238C20C2003B1C36 /* game2-coin.mp3 */; };
+		13F564D1238C20C2003B1C36 /* Level1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F564C5238C20C2003B1C36 /* Level1.swift */; };
+		13F564D2238C20C2003B1C36 /* Level6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F564C6238C20C2003B1C36 /* Level6.swift */; };
+		13F564D4238C2357003B1C36 /* ViewControllerAstronomy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F564D3238C2357003B1C36 /* ViewControllerAstronomy.swift */; };
+		13F564D8238C731F003B1C36 /* Level9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F564D7238C731F003B1C36 /* Level9.swift */; };
+		9309DF8D2382B97B001F1A75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9309DF8C2382B97B001F1A75 /* AppDelegate.swift */; };
+		9309DF8F2382B97B001F1A75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9309DF8E2382B97B001F1A75 /* SceneDelegate.swift */; };
+		9309DF912382B97B001F1A75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9309DF902382B97B001F1A75 /* ViewController.swift */; };
+		9309DF942382B97B001F1A75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9309DF922382B97B001F1A75 /* Main.storyboard */; };
+		9309DF962382B97E001F1A75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9309DF952382B97E001F1A75 /* Assets.xcassets */; };
+		9309DF992382B97E001F1A75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9309DF972382B97E001F1A75 /* LaunchScreen.storyboard */; };
+		930FD148238B86CE0090E3B7 /* ViewControllerChemistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930FD147238B86CE0090E3B7 /* ViewControllerChemistry.swift */; };
+		935367C42383F6B0005299FA /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935367C32383F6B0005299FA /* ViewController2.swift */; };
+		935367C623845A7D005299FA /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935367C523845A7D005299FA /* ViewController3.swift */; };
+		93ACB7AA23882BAA00898946 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ACB7A923882BAA00898946 /* ViewController4.swift */; };
+		93ACB7AE238999A100898946 /* ViewControllerStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ACB7AD238999A100898946 /* ViewControllerStart.swift */; };
+		93ACB7B4238B19DF00898946 /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ACB7B3238B19DF00898946 /* ViewController5.swift */; };
+		93ACB7B6238B59E200898946 /* soundtrackmenu.wav in Resources */ = {isa = PBXBuildFile; fileRef = 93ACB7B5238B59E200898946 /* soundtrackmenu.wav */; };
+		93CEBF00238B701900555310 /* buttonsound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93CEBEFF238B701900555310 /* buttonsound.mp3 */; };
+		93CEBF1C238B7EF300555310 /* RandomFall2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CEBF01238B7EF000555310 /* RandomFall2.swift */; };
+		93CEBF1D238B7EF300555310 /* Ampolla.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CEBF02238B7EF000555310 /* Ampolla.swift */; };
+		93CEBF1E238B7EF300555310 /* LivelloCarbonio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CEBF03238B7EF100555310 /* LivelloCarbonio.swift */; };
+		93CEBF1F238B7EF300555310 /* LivelloAzoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CEBF04238B7EF100555310 /* LivelloAzoto.swift */; };
+		93CEBF20238B7EF300555310 /* Ossigeno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CEBF05238B7EF100555310 /* Ossigeno.swift */; };
+		93CEBF21238B7EF300555310 /* Ferro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CEBF06238B7EF100555310 /* Ferro.swift */; };
+		93CEBF22238B7EF300555310 /* RandomFall1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CEBF07238B7EF100555310 /* RandomFall1.swift */; };
+		93CEBF23238B7EF300555310 /* LivelloSodio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CEBF08238B7EF100555310 /* LivelloSodio.swift */; };
+		93CEBF24238B7EF300555310 /* game1-gameover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93CEBF09238B7EF100555310 /* game1-gameover.mp3 */; };
+		93CEBF25238B7EF300555310 /* LivelloOssigeno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CEBF0A238B7EF100555310 /* LivelloOssigeno.swift */; };
+		93CEBF26238B7EF300555310 /* LivelloFerro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CEBF0B238B7EF100555310 /* LivelloFerro.swift */; };
+		93CEBF28238B7EF300555310 /* Idrogeno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CEBF0D238B7EF100555310 /* Idrogeno.swift */; };
+		93CEBF2A238B7EF300555310 /* LivelloMercurio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CEBF0F238B7EF100555310 /* LivelloMercurio.swift */; };
+		93CEBF2B238B7EF300555310 /* game1-bubble.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93CEBF10238B7EF200555310 /* game1-bubble.mp3 */; };
+		93CEBF2C238B7EF300555310 /* RandomFall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CEBF11238B7EF200555310 /* RandomFall.swift */; };
+		93CEBF2D238B7EF300555310 /* Magnesio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CEBF12238B7EF200555310 /* Magnesio.swift */; };
+		93CEBF2E238B7EF300555310 /* Mercurio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CEBF13238B7EF200555310 /* Mercurio.swift */; };
+		93CEBF2F238B7EF300555310 /* Azoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CEBF14238B7EF200555310 /* Azoto.swift */; };
+		93CEBF30238B7EF300555310 /* Cloro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CEBF15238B7EF200555310 /* Cloro.swift */; };
+		93CEBF31238B7EF300555310 /* LivelloCloro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CEBF16238B7EF200555310 /* LivelloCloro.swift */; };
+		93CEBF33238B7EF300555310 /* LivelloMagnesio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CEBF18238B7EF200555310 /* LivelloMagnesio.swift */; };
+		93CEBF34238B7EF300555310 /* Carbonio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CEBF19238B7EF200555310 /* Carbonio.swift */; };
+		93CEBF35238B7EF300555310 /* Sodio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CEBF1A238B7EF200555310 /* Sodio.swift */; };
+		93CEBF36238B7EF300555310 /* LivelloIdrogeno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CEBF1B238B7EF300555310 /* LivelloIdrogeno.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13F564B9238C0329003B1C36 /* game1-soundtrack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "game1-soundtrack.mp3"; sourceTree = "<group>"; };
+		13F564BB238C20C2003B1C36 /* Level8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level8.swift; sourceTree = "<group>"; };
+		13F564BC238C20C2003B1C36 /* Level5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level5.swift; sourceTree = "<group>"; };
+		13F564BD238C20C2003B1C36 /* Level7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level7.swift; sourceTree = "<group>"; };
+		13F564BE238C20C2003B1C36 /* Level2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level2.swift; sourceTree = "<group>"; };
+		13F564BF238C20C2003B1C36 /* damage.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = damage.mp3; sourceTree = "<group>"; };
+		13F564C0238C20C2003B1C36 /* Level3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level3.swift; sourceTree = "<group>"; };
+		13F564C1238C20C2003B1C36 /* game2-soundtrack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "game2-soundtrack.mp3"; sourceTree = "<group>"; };
+		13F564C2238C20C2003B1C36 /* Level4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level4.swift; sourceTree = "<group>"; };
+		13F564C3238C20C2003B1C36 /* game2-gameover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "game2-gameover.mp3"; sourceTree = "<group>"; };
+		13F564C4238C20C2003B1C36 /* game2-coin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "game2-coin.mp3"; sourceTree = "<group>"; };
+		13F564C5238C20C2003B1C36 /* Level1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level1.swift; sourceTree = "<group>"; };
+		13F564C6238C20C2003B1C36 /* Level6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level6.swift; sourceTree = "<group>"; };
+		13F564D3238C2357003B1C36 /* ViewControllerAstronomy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerAstronomy.swift; sourceTree = "<group>"; };
+		13F564D7238C731F003B1C36 /* Level9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level9.swift; sourceTree = "<group>"; };
+		9309DF892382B97B001F1A75 /* Sci-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sci-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9309DF8C2382B97B001F1A75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9309DF8E2382B97B001F1A75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9309DF902382B97B001F1A75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9309DF932382B97B001F1A75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9309DF952382B97E001F1A75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9309DF982382B97E001F1A75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9309DF9A2382B97E001F1A75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		930FD147238B86CE0090E3B7 /* ViewControllerChemistry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerChemistry.swift; sourceTree = "<group>"; };
+		935367C32383F6B0005299FA /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		935367C523845A7D005299FA /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		93ACB7A923882BAA00898946 /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		93ACB7AD238999A100898946 /* ViewControllerStart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerStart.swift; sourceTree = "<group>"; };
+		93ACB7B3238B19DF00898946 /* ViewController5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = SOURCE_ROOT; };
+		93ACB7B5238B59E200898946 /* soundtrackmenu.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = soundtrackmenu.wav; sourceTree = "<group>"; };
+		93ACB7B7238B69D600898946 /* Sci-app.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Sci-app.xcodeproj"; sourceTree = "<group>"; };
+		93CEBEFF238B701900555310 /* buttonsound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = buttonsound.mp3; sourceTree = "<group>"; };
+		93CEBF01238B7EF000555310 /* RandomFall2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomFall2.swift; sourceTree = "<group>"; };
+		93CEBF02238B7EF000555310 /* Ampolla.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ampolla.swift; sourceTree = "<group>"; };
+		93CEBF03238B7EF100555310 /* LivelloCarbonio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LivelloCarbonio.swift; sourceTree = "<group>"; };
+		93CEBF04238B7EF100555310 /* LivelloAzoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LivelloAzoto.swift; sourceTree = "<group>"; };
+		93CEBF05238B7EF100555310 /* Ossigeno.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ossigeno.swift; sourceTree = "<group>"; };
+		93CEBF06238B7EF100555310 /* Ferro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ferro.swift; sourceTree = "<group>"; };
+		93CEBF07238B7EF100555310 /* RandomFall1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomFall1.swift; sourceTree = "<group>"; };
+		93CEBF08238B7EF100555310 /* LivelloSodio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LivelloSodio.swift; sourceTree = "<group>"; };
+		93CEBF09238B7EF100555310 /* game1-gameover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "game1-gameover.mp3"; sourceTree = "<group>"; };
+		93CEBF0A238B7EF100555310 /* LivelloOssigeno.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LivelloOssigeno.swift; sourceTree = "<group>"; };
+		93CEBF0B238B7EF100555310 /* LivelloFerro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LivelloFerro.swift; sourceTree = "<group>"; };
+		93CEBF0D238B7EF100555310 /* Idrogeno.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Idrogeno.swift; sourceTree = "<group>"; };
+		93CEBF0F238B7EF100555310 /* LivelloMercurio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LivelloMercurio.swift; sourceTree = "<group>"; };
+		93CEBF10238B7EF200555310 /* game1-bubble.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "game1-bubble.mp3"; sourceTree = "<group>"; };
+		93CEBF11238B7EF200555310 /* RandomFall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomFall.swift; sourceTree = "<group>"; };
+		93CEBF12238B7EF200555310 /* Magnesio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Magnesio.swift; sourceTree = "<group>"; };
+		93CEBF13238B7EF200555310 /* Mercurio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mercurio.swift; sourceTree = "<group>"; };
+		93CEBF14238B7EF200555310 /* Azoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Azoto.swift; sourceTree = "<group>"; };
+		93CEBF15238B7EF200555310 /* Cloro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cloro.swift; sourceTree = "<group>"; };
+		93CEBF16238B7EF200555310 /* LivelloCloro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LivelloCloro.swift; sourceTree = "<group>"; };
+		93CEBF18238B7EF200555310 /* LivelloMagnesio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LivelloMagnesio.swift; sourceTree = "<group>"; };
+		93CEBF19238B7EF200555310 /* Carbonio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Carbonio.swift; sourceTree = "<group>"; };
+		93CEBF1A238B7EF200555310 /* Sodio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sodio.swift; sourceTree = "<group>"; };
+		93CEBF1B238B7EF300555310 /* LivelloIdrogeno.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LivelloIdrogeno.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9309DF862382B97B001F1A75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9309DF802382B97B001F1A75 = {
+			isa = PBXGroup;
+			children = (
+				93ACB7B7238B69D600898946 /* Sci-app.xcodeproj */,
+				9309DF8B2382B97B001F1A75 /* Sci-app */,
+				9309DF8A2382B97B001F1A75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9309DF8A2382B97B001F1A75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9309DF892382B97B001F1A75 /* Sci-app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9309DF8B2382B97B001F1A75 /* Sci-app */ = {
+			isa = PBXGroup;
+			children = (
+				9309DF8C2382B97B001F1A75 /* AppDelegate.swift */,
+				9309DF8E2382B97B001F1A75 /* SceneDelegate.swift */,
+				9309DF922382B97B001F1A75 /* Main.storyboard */,
+				93ACB7AD238999A100898946 /* ViewControllerStart.swift */,
+				9309DF902382B97B001F1A75 /* ViewController.swift */,
+				93ACB7B5238B59E200898946 /* soundtrackmenu.wav */,
+				935367C32383F6B0005299FA /* ViewController2.swift */,
+				935367C523845A7D005299FA /* ViewController3.swift */,
+				93ACB7A923882BAA00898946 /* ViewController4.swift */,
+				930FD147238B86CE0090E3B7 /* ViewControllerChemistry.swift */,
+				13F564D3238C2357003B1C36 /* ViewControllerAstronomy.swift */,
+				93CEBF02238B7EF000555310 /* Ampolla.swift */,
+				93CEBF14238B7EF200555310 /* Azoto.swift */,
+				93CEBF19238B7EF200555310 /* Carbonio.swift */,
+				13F564C5238C20C2003B1C36 /* Level1.swift */,
+				13F564BE238C20C2003B1C36 /* Level2.swift */,
+				13F564C0238C20C2003B1C36 /* Level3.swift */,
+				13F564C2238C20C2003B1C36 /* Level4.swift */,
+				13F564BC238C20C2003B1C36 /* Level5.swift */,
+				13F564C6238C20C2003B1C36 /* Level6.swift */,
+				13F564BD238C20C2003B1C36 /* Level7.swift */,
+				13F564BB238C20C2003B1C36 /* Level8.swift */,
+				13F564D7238C731F003B1C36 /* Level9.swift */,
+				13F564C1238C20C2003B1C36 /* game2-soundtrack.mp3 */,
+				13F564BF238C20C2003B1C36 /* damage.mp3 */,
+				13F564C3238C20C2003B1C36 /* game2-gameover.mp3 */,
+				13F564C4238C20C2003B1C36 /* game2-coin.mp3 */,
+				93CEBF15238B7EF200555310 /* Cloro.swift */,
+				93CEBF06238B7EF100555310 /* Ferro.swift */,
+				93CEBF10238B7EF200555310 /* game1-bubble.mp3 */,
+				93CEBF09238B7EF100555310 /* game1-gameover.mp3 */,
+				93CEBF0D238B7EF100555310 /* Idrogeno.swift */,
+				13F564B9238C0329003B1C36 /* game1-soundtrack.mp3 */,
+				93CEBF04238B7EF100555310 /* LivelloAzoto.swift */,
+				93CEBF03238B7EF100555310 /* LivelloCarbonio.swift */,
+				93CEBF16238B7EF200555310 /* LivelloCloro.swift */,
+				93CEBF1B238B7EF300555310 /* LivelloIdrogeno.swift */,
+				93CEBF0B238B7EF100555310 /* LivelloFerro.swift */,
+				93CEBF18238B7EF200555310 /* LivelloMagnesio.swift */,
+				93CEBF0F238B7EF100555310 /* LivelloMercurio.swift */,
+				93CEBF0A238B7EF100555310 /* LivelloOssigeno.swift */,
+				93CEBF08238B7EF100555310 /* LivelloSodio.swift */,
+				93CEBF12238B7EF200555310 /* Magnesio.swift */,
+				93CEBF13238B7EF200555310 /* Mercurio.swift */,
+				93CEBF05238B7EF100555310 /* Ossigeno.swift */,
+				93CEBF11238B7EF200555310 /* RandomFall.swift */,
+				93CEBF07238B7EF100555310 /* RandomFall1.swift */,
+				93CEBF01238B7EF000555310 /* RandomFall2.swift */,
+				93CEBF1A238B7EF200555310 /* Sodio.swift */,
+				93ACB7B3238B19DF00898946 /* ViewController5.swift */,
+				9309DF952382B97E001F1A75 /* Assets.xcassets */,
+				9309DF972382B97E001F1A75 /* LaunchScreen.storyboard */,
+				93CEBEFF238B701900555310 /* buttonsound.mp3 */,
+				9309DF9A2382B97E001F1A75 /* Info.plist */,
+			);
+			path = "Sci-app";
+			sourceTree = "<group>";
+		};
+		93ACB7B8238B69D600898946 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9309DF882382B97B001F1A75 /* Sci-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9309DF9D2382B97E001F1A75 /* Build configuration list for PBXNativeTarget "Sci-app" */;
+			buildPhases = (
+				9309DF852382B97B001F1A75 /* Sources */,
+				9309DF862382B97B001F1A75 /* Frameworks */,
+				9309DF872382B97B001F1A75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sci-app";
+			productName = "Sci-app";
+			productReference = 9309DF892382B97B001F1A75 /* Sci-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9309DF812382B97B001F1A75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Lorenzo Montenero";
+				TargetAttributes = {
+					9309DF882382B97B001F1A75 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = 9309DF842382B97B001F1A75 /* Build configuration list for PBXProject "Sci-app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9309DF802382B97B001F1A75;
+			productRefGroup = 9309DF8A2382B97B001F1A75 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 93ACB7B8238B69D600898946 /* Products */;
+					ProjectRef = 93ACB7B7238B69D600898946 /* Sci-app.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				9309DF882382B97B001F1A75 /* Sci-app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9309DF872382B97B001F1A75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F564BA238C0329003B1C36 /* game1-soundtrack.mp3 in Resources */,
+				9309DF992382B97E001F1A75 /* LaunchScreen.storyboard in Resources */,
+				93ACB7B6238B59E200898946 /* soundtrackmenu.wav in Resources */,
+				13F564CF238C20C2003B1C36 /* game2-gameover.mp3 in Resources */,
+				93CEBF2B238B7EF300555310 /* game1-bubble.mp3 in Resources */,
+				93CEBF24238B7EF300555310 /* game1-gameover.mp3 in Resources */,
+				9309DF962382B97E001F1A75 /* Assets.xcassets in Resources */,
+				9309DF942382B97B001F1A75 /* Main.storyboard in Resources */,
+				13F564CD238C20C2003B1C36 /* game2-soundtrack.mp3 in Resources */,
+				13F564CB238C20C2003B1C36 /* damage.mp3 in Resources */,
+				13F564D0238C20C2003B1C36 /* game2-coin.mp3 in Resources */,
+				93CEBF00238B701900555310 /* buttonsound.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9309DF852382B97B001F1A75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93CEBF36238B7EF300555310 /* LivelloIdrogeno.swift in Sources */,
+				93CEBF2C238B7EF300555310 /* RandomFall.swift in Sources */,
+				930FD148238B86CE0090E3B7 /* ViewControllerChemistry.swift in Sources */,
+				13F564D4238C2357003B1C36 /* ViewControllerAstronomy.swift in Sources */,
+				93CEBF21238B7EF300555310 /* Ferro.swift in Sources */,
+				93CEBF1D238B7EF300555310 /* Ampolla.swift in Sources */,
+				13F564CA238C20C2003B1C36 /* Level2.swift in Sources */,
+				93CEBF35238B7EF300555310 /* Sodio.swift in Sources */,
+				93CEBF30238B7EF300555310 /* Cloro.swift in Sources */,
+				93CEBF2D238B7EF300555310 /* Magnesio.swift in Sources */,
+				13F564CE238C20C2003B1C36 /* Level4.swift in Sources */,
+				93CEBF23238B7EF300555310 /* LivelloSodio.swift in Sources */,
+				93CEBF28238B7EF300555310 /* Idrogeno.swift in Sources */,
+				93CEBF2A238B7EF300555310 /* LivelloMercurio.swift in Sources */,
+				93CEBF33238B7EF300555310 /* LivelloMagnesio.swift in Sources */,
+				13F564C8238C20C2003B1C36 /* Level5.swift in Sources */,
+				93CEBF20238B7EF300555310 /* Ossigeno.swift in Sources */,
+				93ACB7AE238999A100898946 /* ViewControllerStart.swift in Sources */,
+				93CEBF25238B7EF300555310 /* LivelloOssigeno.swift in Sources */,
+				13F564D1238C20C2003B1C36 /* Level1.swift in Sources */,
+				93ACB7AA23882BAA00898946 /* ViewController4.swift in Sources */,
+				13F564CC238C20C2003B1C36 /* Level3.swift in Sources */,
+				93CEBF1E238B7EF300555310 /* LivelloCarbonio.swift in Sources */,
+				93CEBF34238B7EF300555310 /* Carbonio.swift in Sources */,
+				935367C623845A7D005299FA /* ViewController3.swift in Sources */,
+				93ACB7B4238B19DF00898946 /* ViewController5.swift in Sources */,
+				9309DF912382B97B001F1A75 /* ViewController.swift in Sources */,
+				13F564D8238C731F003B1C36 /* Level9.swift in Sources */,
+				93CEBF1C238B7EF300555310 /* RandomFall2.swift in Sources */,
+				13F564D2238C20C2003B1C36 /* Level6.swift in Sources */,
+				93CEBF1F238B7EF300555310 /* LivelloAzoto.swift in Sources */,
+				13F564C7238C20C2003B1C36 /* Level8.swift in Sources */,
+				93CEBF2F238B7EF300555310 /* Azoto.swift in Sources */,
+				93CEBF26238B7EF300555310 /* LivelloFerro.swift in Sources */,
+				935367C42383F6B0005299FA /* ViewController2.swift in Sources */,
+				93CEBF31238B7EF300555310 /* LivelloCloro.swift in Sources */,
+				93CEBF22238B7EF300555310 /* RandomFall1.swift in Sources */,
+				13F564C9238C20C2003B1C36 /* Level7.swift in Sources */,
+				93CEBF2E238B7EF300555310 /* Mercurio.swift in Sources */,
+				9309DF8D2382B97B001F1A75 /* AppDelegate.swift in Sources */,
+				9309DF8F2382B97B001F1A75 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9309DF922382B97B001F1A75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9309DF932382B97B001F1A75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9309DF972382B97E001F1A75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9309DF982382B97E001F1A75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9309DF9B2382B97E001F1A75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9309DF9C2382B97E001F1A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9309DF9E2382B97E001F1A75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 674465T3RH;
+				INFOPLIST_FILE = "Sci-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Lorenzo-Montenero.Sci-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9309DF9F2382B97E001F1A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 674465T3RH;
+				INFOPLIST_FILE = "Sci-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Lorenzo-Montenero.Sci-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9309DF842382B97B001F1A75 /* Build configuration list for PBXProject "Sci-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9309DF9B2382B97E001F1A75 /* Debug */,
+				9309DF9C2382B97E001F1A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9309DF9D2382B97E001F1A75 /* Build configuration list for PBXNativeTarget "Sci-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9309DF9E2382B97E001F1A75 /* Debug */,
+				9309DF9F2382B97E001F1A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9309DF812382B97B001F1A75 /* Project object */;
+}

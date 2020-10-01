@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="dOm-Hh-KTc">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--ViewControllerStart-->
+        <scene sceneID="Loa-Rg-HTN">
+            <objects>
+                <viewController title="ViewControllerStart" id="qpd-wV-wrr" customClass="ViewControllerStart" customModule="Sci_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="S1y-Ob-d5k"/>
+                        <viewControllerLayoutGuide type="bottom" id="Rol-qb-tLF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Uqe-5n-tne">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="15W-yR-4nx"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="modal" identifier="Segue1" modalPresentationStyle="currentContext" id="h6U-EO-vJa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UUY-4c-w1j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4759" y="136"/>
+        </scene>
+        <!--Main View-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" userLabel="Main View" customClass="ViewController" customModule="Sci_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Lul-sE-E7n"/>
+                        <viewControllerLayoutGuide type="bottom" id="4ws-Ov-QrD"/>
+                    </layoutGuides>
+                    <view key="view" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bja-Lt-ayy">
+                                <rect key="frame" x="36" y="498" width="343" height="154"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title=" " image="chemistryImage"/>
+                                <connections>
+                                    <action selector="buttonSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Krg-cf-POU"/>
+                                    <segue destination="DFO-vu-FVL" kind="show" id="IW7-ht-hZ1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dCH-Pn-n0i">
+                                <rect key="frame" x="36" y="266" width="343" height="155"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" image="astronomyImage">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yoR-To-bM2"/>
+                                    <segue destination="vfJ-vy-YgZ" kind="show" id="qpR-BN-oB7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="LOg-Vw-J43"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="astronomyButton" destination="dCH-Pn-n0i" id="9SR-cr-FGW"/>
+                        <outlet property="chemistryButton" destination="Bja-Lt-ayy" id="fNS-50-vP4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5612" y="136"/>
+        </scene>
+        <!--ViewController4-->
+        <scene sceneID="yyZ-s0-SCq">
+            <objects>
+                <viewController autoresizesArchivedViewToFullSize="NO" title="ViewController4" wantsFullScreenLayout="YES" definesPresentationContext="YES" providesPresentationContextTransitionStyle="YES" modalPresentationStyle="fullScreen" id="unN-df-NAT" customClass="ViewController4" customModule="Sci_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="H9x-y9-MbX"/>
+                        <viewControllerLayoutGuide type="bottom" id="P5j-RR-5XG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="453-0N-vQG" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Osc-Qi-Os8">
+                                <rect key="frame" x="77" y="785" width="260" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="backButtonImage">
+                                    <color key="titleColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="backToGames:" destination="DFO-vu-FVL" eventType="touchUpInside" id="s0y-ZN-zU6"/>
+                                    <action selector="backToLevel:" destination="unN-df-NAT" eventType="touchUpInside" id="6qb-AY-0kd"/>
+                                    <action selector="buttonSound:" destination="unN-df-NAT" eventType="touchUpInside" id="jLd-EK-SpY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="AWg-ar-8ga"/>
+                    <connections>
+                        <outlet property="backToPlanetButton" destination="Osc-Qi-Os8" id="I9t-mR-6PK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1I2-FC-h8E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7316" y="-216"/>
+        </scene>
+        <!--View Controller Chemistry-->
+        <scene sceneID="VQC-Fx-I3Q">
+            <objects>
+                <viewController id="NUR-19-AfO" customClass="ViewControllerChemistry" customModule="Sci_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YgL-D1-KZC"/>
+                        <viewControllerLayoutGuide type="bottom" id="2mk-YO-w5Y"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KX5-bO-09H" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="upN-8x-5OE"/>
+                    <connections>
+                        <segue destination="DFO-vu-FVL" kind="show" identifier="segue" id="kLF-BB-6Hd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hh5-gX-TEv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6458" y="1198"/>
+        </scene>
+        <!--View Controller Astronomy-->
+        <scene sceneID="9bc-e9-qX6">
+            <objects>
+                <viewController id="Ruj-zy-9ch" customClass="ViewControllerAstronomy" customModule="Sci_app" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rh8-ve-YHP"/>
+                        <viewControllerLayoutGuide type="bottom" id="vtr-5P-PCY"/>
+                    </layoutGuides>
+                    <view key="view" autoresizesSubviews="NO" contentMode="scaleAspectFill" id="uXt-L5-DY7" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="AlR-At-5CB"/>
+                    <connections>
+                        <segue destination="vfJ-vy-YgZ" kind="show" identifier="segue2" id="F7h-WA-4Cl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i67-0W-fbv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6458" y="-935"/>
+        </scene>
+        <!--ViewController2-->
+        <scene sceneID="CzH-fO-DMD">
+            <objects>
+                <viewController title="ViewController2" modalPresentationStyle="overFullScreen" id="vfJ-vy-YgZ" customClass="ViewController2" customModule="Sci_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ojn-Dx-sdu"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZLN-xy-HBg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jsZ-vs-oMq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eun-PQ-dF5">
+                                <rect key="frame" x="47" y="276" width="76" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="planet1" image="1-planet-image"/>
+                                <connections>
+                                    <action selector="buttonSound:" destination="vfJ-vy-YgZ" eventType="touchUpInside" id="Vd2-hH-rnr"/>
+                                    <action selector="planetPressed:" destination="vfJ-vy-YgZ" eventType="touchUpInside" id="3mW-8k-b6b"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D9t-6k-GCf">
+                                <rect key="frame" x="47" y="380" width="76" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="planet4" image="4-planet-image"/>
+                                <connections>
+                                    <action selector="buttonSound:" destination="vfJ-vy-YgZ" eventType="touchUpInside" id="O02-G3-NXj"/>
+                                    <action selector="planetPressed:" destination="vfJ-vy-YgZ" eventType="touchUpInside" id="WKH-Kf-mgY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SWx-7Y-4S5">
+                                <rect key="frame" x="47" y="489" width="76" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="planet7" image="7-planet-image"/>
+                                <connections>
+                                    <action selector="buttonSound:" destination="vfJ-vy-YgZ" eventType="touchUpInside" id="e8M-wl-cK0"/>
+                                    <action selector="planetPressed:" destination="vfJ-vy-YgZ" eventType="touchUpInside" id="nz9-8a-ZqH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MBa-He-Vxc">
+                                <rect key="frame" x="292" y="489" width="78" height="78"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="planet9" image="9-planet-image"/>
+                                <connections>
+                                    <action selector="buttonSound:" destination="vfJ-vy-YgZ" eventType="touchUpInside" id="c14-Oe-zrh"/>
+                                    <action selector="planetPressed:" destination="vfJ-vy-YgZ" eventType="touchUpInside" id="yLh-P7-w88"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eBa-3P-nPk">
+                                <rect key="frame" x="171" y="489" width="76" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="planet8" image="8-planet-image"/>
+                                <connections>
+                                    <action selector="buttonSound:" destination="vfJ-vy-YgZ" eventType="touchUpInside" id="uvR-Ew-uSO"/>
+                                    <action selector="planetPressed:" destination="vfJ-vy-YgZ" eventType="touchUpInside" id="SNL-GJ-FPH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Icr-pf-Y2O">
+                                <rect key="frame" x="171" y="276" width="76" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="planet2" image="2-planet-image"/>
+                                <connections>
+                                    <action selector="buttonSound:" destination="vfJ-vy-YgZ" eventType="touchUpInside" id="BrS-Lo-nVm"/>
+                                    <action selector="planetPressed:" destination="vfJ-vy-YgZ" eventType="touchUpInside" id="SVX-GG-QZw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UKC-67-9xZ">
+                                <rect key="frame" x="285" y="276" width="84" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="planet3" image="3-planet-image"/>
+                                <connections>
+                                    <action selector="buttonSound:" destination="vfJ-vy-YgZ" eventType="touchUpInside" id="720-RH-oLk"/>
+                                    <action selector="planetPressed:" destination="vfJ-vy-YgZ" eventType="touchUpInside" id="E8D-gD-Umy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ec7-6C-ldE">
+                                <rect key="frame" x="171" y="380" width="76" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="planet5" image="5-planet-image"/>
+                                <connections>
+                                    <action selector="buttonSound:" destination="vfJ-vy-YgZ" eventType="touchUpInside" id="tCS-QN-VIq"/>
+                                    <action selector="planetPressed:" destination="vfJ-vy-YgZ" eventType="touchUpInside" id="l44-4v-CRv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HQf-E0-YtV">
+                                <rect key="frame" x="292" y="380" width="78" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="planet6" image="6-planet-image"/>
+                                <connections>
+                                    <action selector="buttonSound:" destination="vfJ-vy-YgZ" eventType="touchUpInside" id="43D-mp-Y2u"/>
+                                    <action selector="planetPressed:" destination="vfJ-vy-YgZ" eventType="touchUpInside" id="chC-5l-0o0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aU8-DG-Fon">
+                                <rect key="frame" x="77" y="658" width="260" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="glossaryButtonImage">
+                                    <color key="titleColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonSound:" destination="vfJ-vy-YgZ" eventType="touchUpInside" id="o7b-8v-701"/>
+                                    <segue destination="unN-df-NAT" kind="show" id="wjF-a9-2Sy"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="selectThePlanetImage" translatesAutoresizingMaskIntoConstraints="NO" id="auM-TE-DCz">
+                                <rect key="frame" x="39" y="56" width="336" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fg7-iT-Aku">
+                                <rect key="frame" x="77" y="758" width="260" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="backButtonImage">
+                                    <color key="titleColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="backToGames:" destination="vfJ-vy-YgZ" eventType="touchUpInside" id="TIx-wF-58i"/>
+                                    <action selector="buttonSound:" destination="vfJ-vy-YgZ" eventType="touchUpInside" id="O7D-oY-BoK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="KdJ-Qd-dsf"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="backButton" destination="fg7-iT-Aku" id="7iq-Uk-8kA"/>
+                        <outlet property="glossaryButton" destination="aU8-DG-Fon" id="cy4-jX-CwZ"/>
+                        <outlet property="planet1" destination="eun-PQ-dF5" id="xel-jN-C3f"/>
+                        <outlet property="planet2" destination="Icr-pf-Y2O" id="z1h-1P-Dy3"/>
+                        <outlet property="planet3" destination="UKC-67-9xZ" id="qu3-LX-MFX"/>
+                        <outlet property="planet4" destination="D9t-6k-GCf" id="6Pp-tY-26O"/>
+                        <outlet property="planet5" destination="ec7-6C-ldE" id="TJP-qM-I4H"/>
+                        <outlet property="planet6" destination="HQf-E0-YtV" id="cdC-Qy-aRP"/>
+                        <outlet property="planet7" destination="SWx-7Y-4S5" id="LQS-Jf-vWR"/>
+                        <outlet property="planet8" destination="eBa-3P-nPk" id="qN8-LE-lr7"/>
+                        <outlet property="planet9" destination="MBa-He-Vxc" id="3Fa-yb-KkW"/>
+                        <segue destination="Ruj-zy-9ch" kind="presentation" identifier="toAstronomy" modalPresentationStyle="currentContext" id="PUg-rw-eMO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C9J-PR-jb8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6458" y="-216"/>
+        </scene>
+        <!--View Controller3-->
+        <scene sceneID="sF9-ya-19G">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="DFO-vu-FVL" customClass="ViewController3" customModule="Sci_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gx8-ha-GRQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="33b-Kv-3zu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="N0I-az-CAX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Bm-Ju-gdH">
+                                <rect key="frame" x="47" y="377" width="76" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="level4" image="4-level-image"/>
+                                <connections>
+                                    <action selector="buttonSound:" destination="DFO-vu-FVL" eventType="touchUpInside" id="JFB-Yv-BIH"/>
+                                    <action selector="planetPressed:" destination="DFO-vu-FVL" eventType="touchUpInside" id="OsE-oR-95j"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RBC-wW-N2C">
+                                <rect key="frame" x="47" y="486" width="76" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="level7" image="7-level-image"/>
+                                <connections>
+                                    <action selector="buttonSound:" destination="DFO-vu-FVL" eventType="touchUpInside" id="QYM-rA-Tc5"/>
+                                    <action selector="planetPressed:" destination="DFO-vu-FVL" eventType="touchUpInside" id="u7W-sL-ita"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tiM-HR-43P">
+                                <rect key="frame" x="171" y="486" width="76" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="level8" image="8-level-image"/>
+                                <connections>
+                                    <action selector="buttonSound:" destination="DFO-vu-FVL" eventType="touchUpInside" id="xPm-a1-ic3"/>
+                                    <action selector="planetPressed:" destination="DFO-vu-FVL" eventType="touchUpInside" id="9yS-jo-dxO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IJ7-La-Ccz">
+                                <rect key="frame" x="171" y="273" width="76" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="level2" image="2-level-image"/>
+                                <connections>
+                                    <action selector="buttonSound:" destination="DFO-vu-FVL" eventType="touchUpInside" id="Crc-76-7Ys"/>
+                                    <action selector="planetPressed:" destination="DFO-vu-FVL" eventType="touchUpInside" id="HMb-9n-SiH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xZY-I2-1lA">
+                                <rect key="frame" x="292" y="273" width="77" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="level3" image="3-level-image"/>
+                                <connections>
+                                    <action selector="buttonSound:" destination="DFO-vu-FVL" eventType="touchUpInside" id="ZBQ-tA-FTE"/>
+                                    <action selector="planetPressed:" destination="DFO-vu-FVL" eventType="touchUpInside" id="odK-Ve-mRU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nIU-pg-SWH">
+                                <rect key="frame" x="171" y="377" width="76" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="level5" image="5-level-image"/>
+                                <connections>
+                                    <action selector="buttonSound:" destination="DFO-vu-FVL" eventType="touchUpInside" id="AG4-BT-jbq"/>
+                                    <action selector="planetPressed:" destination="DFO-vu-FVL" eventType="touchUpInside" id="kVF-hI-4XB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Duf-3X-mOC">
+                                <rect key="frame" x="292" y="377" width="78" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="level6" image="6-level-image"/>
+                                <connections>
+                                    <action selector="buttonSound:" destination="DFO-vu-FVL" eventType="touchUpInside" id="JZI-1L-p4p"/>
+                                    <action selector="planetPressed:" destination="DFO-vu-FVL" eventType="touchUpInside" id="IDj-DS-2aS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5OU-6e-GKp">
+                                <rect key="frame" x="77" y="655" width="260" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="glossaryButtonImage">
+                                    <color key="titleColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonSound:" destination="DFO-vu-FVL" eventType="touchUpInside" id="DUg-ud-M88"/>
+                                    <segue destination="cmB-0g-aHN" kind="presentation" modalPresentationStyle="fullScreen" id="STd-lb-lrE"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="selectTheLevelImage" translatesAutoresizingMaskIntoConstraints="NO" id="YhY-d1-aoK">
+                                <rect key="frame" x="39" y="53" width="336" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fBh-ng-P3A">
+                                <rect key="frame" x="77" y="755" width="260" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="backButtonImage">
+                                    <color key="titleColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="backToGames:" destination="DFO-vu-FVL" eventType="touchUpInside" id="BIN-cz-n65"/>
+                                    <action selector="buttonSound:" destination="DFO-vu-FVL" eventType="touchUpInside" id="q3h-wp-jxd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jqX-Ew-isl">
+                                <rect key="frame" x="47" y="273" width="76" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="level1" image="1-level-image"/>
+                                <connections>
+                                    <action selector="buttonSound:" destination="DFO-vu-FVL" eventType="touchUpInside" id="PBC-Ds-4JK"/>
+                                    <action selector="planetPressed:" destination="DFO-vu-FVL" eventType="touchUpInside" id="vSq-WV-RsZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lgv-hi-wiF">
+                                <rect key="frame" x="292" y="482" width="78" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="level9" image="9-level-image"/>
+                                <connections>
+                                    <action selector="buttonSound:" destination="DFO-vu-FVL" eventType="touchUpInside" id="hPh-CK-ye8"/>
+                                    <action selector="planetPressed:" destination="DFO-vu-FVL" eventType="touchUpInside" id="x9h-Go-3R8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="72q-bV-G6R"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="backButton" destination="fBh-ng-P3A" id="lp1-89-g2b"/>
+                        <outlet property="glossaryButton" destination="5OU-6e-GKp" id="OfV-DU-7DL"/>
+                        <outlet property="level1" destination="jqX-Ew-isl" id="Jaq-Ls-dT6"/>
+                        <outlet property="level2" destination="IJ7-La-Ccz" id="oK6-ee-NhU"/>
+                        <outlet property="level3" destination="xZY-I2-1lA" id="fgf-0v-rJd"/>
+                        <outlet property="level4" destination="5Bm-Ju-gdH" id="Iz3-LU-fdy"/>
+                        <outlet property="level5" destination="nIU-pg-SWH" id="Y7H-mi-izt"/>
+                        <outlet property="level6" destination="Duf-3X-mOC" id="aQe-1x-1ah"/>
+                        <outlet property="level7" destination="RBC-wW-N2C" id="lU7-dy-7Ru"/>
+                        <outlet property="level8" destination="tiM-HR-43P" id="5fi-1y-6eN"/>
+                        <outlet property="level9" destination="lgv-hi-wiF" id="DP9-an-kmu"/>
+                        <segue destination="NUR-19-AfO" kind="modal" identifier="toChemistry" modalPresentationStyle="currentContext" id="EMI-Ob-jMX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Q1-fX-4DB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6457.971014492754" y="502.90178571428567"/>
+        </scene>
+        <!--View Controller5-->
+        <scene sceneID="Jiv-sq-bPX">
+            <objects>
+                <viewController id="cmB-0g-aHN" customClass="ViewController5" customModule="Sci_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ISK-W1-XV4"/>
+                        <viewControllerLayoutGuide type="bottom" id="TGy-kX-10Q"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Tow-DQ-XrO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UPQ-qT-haz">
+                                <rect key="frame" x="77" y="785" width="260" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="backButtonImage">
+                                    <color key="titleColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="backToGames:" destination="DFO-vu-FVL" eventType="touchUpInside" id="fYg-OP-70z"/>
+                                    <action selector="backToLevel:" destination="cmB-0g-aHN" eventType="touchUpInside" id="q7y-4y-ori"/>
+                                    <action selector="buttonSound:" destination="cmB-0g-aHN" eventType="touchUpInside" id="Jb0-4l-zCq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="jWg-yW-guC"/>
+                    <connections>
+                        <outlet property="backToLevelButton" destination="UPQ-qT-haz" id="7I1-gC-ldg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h1f-1T-pcc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7316" y="503"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="bCU-VB-1Ip">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dOm-Hh-KTc" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="18D-cj-6hU">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="qpd-wV-wrr" kind="relationship" relationship="rootViewController" id="037-Va-dMr"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1gg-T2-CYh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3952.1739130434785" y="135.9375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1-level-image" width="87" height="87"/>
+        <image name="1-planet-image" width="85" height="85"/>
+        <image name="2-level-image" width="85" height="85"/>
+        <image name="2-planet-image" width="85" height="85"/>
+        <image name="3-level-image" width="85" height="85"/>
+        <image name="3-planet-image" width="96" height="85"/>
+        <image name="4-level-image" width="85" height="85"/>
+        <image name="4-planet-image" width="85" height="85"/>
+        <image name="5-level-image" width="85" height="85"/>
+        <image name="5-planet-image" width="85" height="85"/>
+        <image name="6-level-image" width="85" height="85"/>
+        <image name="6-planet-image" width="83" height="83"/>
+        <image name="7-level-image" width="85" height="85"/>
+        <image name="7-planet-image" width="85" height="85"/>
+        <image name="8-level-image" width="85" height="85"/>
+        <image name="8-planet-image" width="85" height="85"/>
+        <image name="9-level-image" width="86" height="90"/>
+        <image name="9-planet-image" width="85" height="85"/>
+        <image name="astronomyImage" width="306" height="135"/>
+        <image name="backButtonImage" width="260" height="49"/>
+        <image name="chemistryImage" width="296" height="135"/>
+        <image name="glossaryButtonImage" width="260" height="49"/>
+        <image name="selectTheLevelImage" width="296" height="36"/>
+        <image name="selectThePlanetImage" width="315" height="36"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="EMI-Ob-jMX"/>
+        <segue reference="kLF-BB-6Hd"/>
+        <segue reference="F7h-WA-4Cl"/>
+    </inferredMetricsTieBreakers>
+    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+</document>
