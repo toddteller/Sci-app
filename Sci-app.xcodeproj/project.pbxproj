@@ -62,6 +62,16 @@
 		93CEBF36238B7EF300555310 /* LivelloIdrogeno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CEBF1B238B7EF300555310 /* LivelloIdrogeno.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		DAD6AC0F2DBF6D1700D667C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9309DF812382B97B001F1A75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9309DF882382B97B001F1A75;
+			remoteInfo = "Sci-app";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		13F564B9238C0329003B1C36 /* game1-soundtrack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "game1-soundtrack.mp3"; sourceTree = "<group>"; };
 		13F564BB238C20C2003B1C36 /* Level8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level8.swift; sourceTree = "<group>"; };
@@ -119,10 +129,22 @@
 		93CEBF19238B7EF200555310 /* Carbonio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Carbonio.swift; sourceTree = "<group>"; };
 		93CEBF1A238B7EF200555310 /* Sodio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sodio.swift; sourceTree = "<group>"; };
 		93CEBF1B238B7EF300555310 /* LivelloIdrogeno.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LivelloIdrogeno.swift; sourceTree = "<group>"; };
+		DAD6AC0B2DBF6D1700D667C0 /* Sci-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sci-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DAD6AC0C2DBF6D1700D667C0 /* Sci-appTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Sci-appTests"; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9309DF862382B97B001F1A75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD6AC082DBF6D1700D667C0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -137,6 +159,7 @@
 			children = (
 				93ACB7B7238B69D600898946 /* Sci-app.xcodeproj */,
 				9309DF8B2382B97B001F1A75 /* Sci-app */,
+				DAD6AC0C2DBF6D1700D667C0 /* Sci-appTests */,
 				9309DF8A2382B97B001F1A75 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -145,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				9309DF892382B97B001F1A75 /* Sci-app.app */,
+				DAD6AC0B2DBF6D1700D667C0 /* Sci-appTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -235,18 +259,45 @@
 			productReference = 9309DF892382B97B001F1A75 /* Sci-app.app */;
 			productType = "com.apple.product-type.application";
 		};
+		DAD6AC0A2DBF6D1700D667C0 /* Sci-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD6AC112DBF6D1700D667C0 /* Build configuration list for PBXNativeTarget "Sci-appTests" */;
+			buildPhases = (
+				DAD6AC072DBF6D1700D667C0 /* Sources */,
+				DAD6AC082DBF6D1700D667C0 /* Frameworks */,
+				DAD6AC092DBF6D1700D667C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAD6AC102DBF6D1700D667C0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DAD6AC0C2DBF6D1700D667C0 /* Sci-appTests */,
+			);
+			name = "Sci-appTests";
+			packageProductDependencies = (
+			);
+			productName = "Sci-appTests";
+			productReference = DAD6AC0B2DBF6D1700D667C0 /* Sci-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		9309DF812382B97B001F1A75 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1120;
+				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "Lorenzo Montenero";
 				TargetAttributes = {
 					9309DF882382B97B001F1A75 = {
 						CreatedOnToolsVersion = 11.2;
+					};
+					DAD6AC0A2DBF6D1700D667C0 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 9309DF882382B97B001F1A75;
 					};
 				};
 			};
@@ -270,6 +321,7 @@
 			projectRoot = "";
 			targets = (
 				9309DF882382B97B001F1A75 /* Sci-app */,
+				DAD6AC0A2DBF6D1700D667C0 /* Sci-appTests */,
 			);
 		};
 /* End PBXProject section */
@@ -291,6 +343,13 @@
 				13F564CB238C20C2003B1C36 /* damage.mp3 in Resources */,
 				13F564D0238C20C2003B1C36 /* game2-coin.mp3 in Resources */,
 				93CEBF00238B701900555310 /* buttonsound.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD6AC092DBF6D1700D667C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,7 +404,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DAD6AC072DBF6D1700D667C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAD6AC102DBF6D1700D667C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9309DF882382B97B001F1A75 /* Sci-app */;
+			targetProxy = DAD6AC0F2DBF6D1700D667C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9309DF922382B97B001F1A75 /* Main.storyboard */ = {
@@ -517,6 +591,55 @@
 			};
 			name = Release;
 		};
+		DAD6AC122DBF6D1700D667C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ingsw.Sci-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sci-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sci-app";
+			};
+			name = Debug;
+		};
+		DAD6AC132DBF6D1700D667C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ingsw.Sci-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sci-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sci-app";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -534,6 +657,15 @@
 			buildConfigurations = (
 				9309DF9E2382B97E001F1A75 /* Debug */,
 				9309DF9F2382B97E001F1A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD6AC112DBF6D1700D667C0 /* Build configuration list for PBXNativeTarget "Sci-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD6AC122DBF6D1700D667C0 /* Debug */,
+				DAD6AC132DBF6D1700D667C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
